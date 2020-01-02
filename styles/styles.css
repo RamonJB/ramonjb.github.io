@@ -1,0 +1,44 @@
+/* Source for .circular--portait: https://www.webfx.com/blog/web-design/circular-images-css/ , used on the home page */
+.circular--portait {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.circular--portait img {
+    width: 100%;
+    height: auto;
+}
+
+/* All things centering https://www.w3schools.com/css/css_align.asp */
+.hello {
+    text-align: center;
+    margin: auto;
+}
+
+.intro {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+}
+
+.summary {
+    font-family: 'Raleway', sans-serif;
+    margin: auto;
+    font-size: x-large;
+}
+
+.logos {
+    margin: auto;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    padding: 1% 2%;
+}
